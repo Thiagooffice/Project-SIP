@@ -1,6 +1,7 @@
 
 
 import Button from "../../components/BotaoHome/BotaoHome";
+import ContainerRegister from "../../components/ContainerRegister/ContainerRegister";
 import Input from "../../components/InputConteudo/InputConteudo";
 import Label from "../../components/LabelConteudo/LabelConteudo";
 import { Header, Warning, Conteudo } from "./style";
@@ -39,6 +40,11 @@ function Home() {
             <Button/>
           
         </div>
+
+
+          <ContainerRegister/>
+        
+        
 
 
       </Conteudo>
