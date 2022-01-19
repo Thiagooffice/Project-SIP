@@ -37,11 +37,11 @@ function Home() {
           
           />
 
-            <Button/>
+            <Button>Pesquisar</Button>
           
         </div>
 
-
+          
           <ContainerRegister/>
         
         

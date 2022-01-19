@@ -12,21 +12,9 @@ export const Header = styled.header`
     }
 `
 
-export const Warning = styled.div`
-    height: 8vh;
-    background-color: #fee8b7;
-    border-top: 7px double rgb(104, 104, 104);
-    border-bottom: 7px double rgb(104, 104, 104);
-
-    p{
-        padding: 15px 25px;
-        font-size: 18px;
-    }
-`
-
 export const Conteudo = styled.div`
     background-color: #FFF0DB;
-    height: 73vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,5 +27,14 @@ export const Conteudo = styled.div`
         justify-content: center;
         flex-direction:column;
     }
-`
 
+    .backForHome{
+        margin-left: 5vw;
+        height: 10vh;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        display: flex;
+
+    }
+`

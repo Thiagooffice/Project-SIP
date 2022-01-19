@@ -1,8 +1,8 @@
 
 import { LabelConteudo } from './style'
 
-export default function Label({children}){
+export default function Label({children, ...props}){
     return(
-        <LabelConteudo>{children}</LabelConteudo>
+        <LabelConteudo {...props} >{children}</LabelConteudo>
     )
 }

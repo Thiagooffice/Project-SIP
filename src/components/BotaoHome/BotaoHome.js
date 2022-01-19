@@ -1,9 +1,9 @@
 import { ButtonHome } from './style'
 
-export default function Button(props){
+export default function Button({children,...props}){
     return(
         <ButtonHome>
-            Pesquisar
+            {children}
         </ButtonHome>
     )
 }

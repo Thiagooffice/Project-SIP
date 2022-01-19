@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 export const LabelConteudo = styled.label`
-    font-size: 25px;
+    font-size: ${props => props.isLittle ? "18px" : "25px"};
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: ${props=>props.moreClose ? "3px" : "5px"};
 `
