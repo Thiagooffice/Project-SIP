@@ -12,9 +12,16 @@ export const RegisterContainer = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    
+    
 
     h1{
         font-size: 18px;
         font-weight: normal;
     }
+
+    a{
+        text-decoration: none;
+    }
+
 `

@@ -26,10 +26,11 @@ export const Warning = styled.div`
 
 export const Conteudo = styled.div`
     background-color: #FFF0DB;
-    height: 73vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     .conteudoDiv{
         width: 35vw;

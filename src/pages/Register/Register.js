@@ -1,5 +1,6 @@
-import { Header, Conteudo } from "./style";
+import { Header, Conteudo, Select } from "./style";
 import Button from "../../components/BotaoHome/BotaoHome";
+import Footer from "../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import Label from "../../components/LabelConteudo/LabelConteudo";
 import { Warning } from "../Home/style";
@@ -30,7 +31,7 @@ export default function Register(){
 
           <Label moreClose isLittle >Nome
           </Label>
-          <InputConteudo   />
+          <InputConteudo placeholder="Nome"  />
 
           <Label moreClose isLittle >CPF:
           </Label>
@@ -42,20 +43,36 @@ export default function Register(){
 
           <Label moreClose isLittle >Tipo de benefício
           </Label>
-          <InputConteudo maxLength="15" />
+          <Select>
+          <option>Selecionar</option>
+          <option>Aposentadoria especial</option>
+          <option>Aposentadoria por idade</option>
+          <option>Aposentadoria por tempo de contribuição</option>
+          <option>Auxílio-acidente</option>
+          <option>Auxílio-doença</option>
+          <option>Benefício assistencial</option>
+          <option>Pensão por morte</option>
+          <option>Salário-maternidade</option>
+          </Select>
 
            
+          <Button>Cadastrar</Button>
           
         </div>
 
         <div className="backForHome">
         <Link to="/">
-              <Button>Voltar</Button>
+        <Button>
+              Voltar
+        </Button>
         </Link>
 
         </div>
 
       </Conteudo>
+
+
+      <Footer/>
         </>
     )
 }

@@ -14,10 +14,11 @@ export const Header = styled.header`
 
 export const Conteudo = styled.div`
     background-color: #FFF0DB;
-    height: 82vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 7vh;
 
     .conteudoDiv{
         width: 35vw;
@@ -29,12 +30,20 @@ export const Conteudo = styled.div`
     }
 
     .backForHome{
-        margin-left: 5vw;
-        height: 10vh;
-        position: fixed;
+        margin-left: 9vw;
+        height: 0;
+        position: absolute;
         left: 0px;
         bottom: 0px;
-        display: flex;
-
     }
 `
+export const Select = styled.select`
+    width: 30vw;
+    height: 5vh;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 2.5vh;
+    margin-top: 5px;
+    color: black;
+`
+

@@ -2,6 +2,7 @@
 
 import Button from "../../components/BotaoHome/BotaoHome";
 import ContainerRegister from "../../components/ContainerRegister/ContainerRegister";
+import Footer from "../../components/Footer/Footer";
 import Input from "../../components/InputConteudo/InputConteudo";
 import Label from "../../components/LabelConteudo/LabelConteudo";
 import { Header, Warning, Conteudo } from "./style";
@@ -43,11 +44,11 @@ function Home() {
 
           
           <ContainerRegister/>
-        
-        
-
 
       </Conteudo>
+
+      
+      <Footer/>
     </>
   );
 }
